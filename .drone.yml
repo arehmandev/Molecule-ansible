@@ -3,6 +3,8 @@ build:
   commands:
     - yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
     - yum install -y install git python-setuptools gcc sudo libffi-devel python-devel openssl-devel
-    - yum install -y ansible
+    - yum install -y ansible python-pip
+    - pip2 install ansible-lint
     - echo "localhost ansible_connection=local" >> /etc/ansible/hosts
+    - ansible-lint playbook.yml
     - ansible-playbook playbook.yml
