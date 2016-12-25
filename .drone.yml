@@ -1,0 +1,9 @@
+build:
+  image: centos
+  commands:
+    - yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    - yum install -y python-pip
+    - pip install ansible
+    - pip install docker-py
+    - pip install molecule
+    - molecule test
