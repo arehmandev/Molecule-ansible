@@ -1,3 +1,5 @@
+<a href="http://54.163.2.164/arehmandev/Molecule-ansible"><img src="http://54.163.2.164/api/badges/arehmandev/Molecule-ansible/status.svg" /></a>
+
 # Testing Ansible playbooks with Molecule
 
 ## The following is an example of:

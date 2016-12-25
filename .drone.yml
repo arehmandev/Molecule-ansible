@@ -6,5 +6,5 @@ build:
     - yum install -y ansible python-pip
     - pip2 install ansible-lint
     - echo "localhost ansible_connection=local" >> /etc/ansible/hosts
-    - ansible-lint playbook.yml
+    - ansible-lint playbook.yml && echo "Linting was a SUCCESS!"
     - ansible-playbook playbook.yml
