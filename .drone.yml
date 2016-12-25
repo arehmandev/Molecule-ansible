@@ -2,7 +2,7 @@ build:
   image: centos
   commands:
     - yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-    - yum install -y python-pip make gcc g++ python-devel
+    - yum install -y install git python-setuptools gcc sudo libffi-devel python-devel openssl-devel
     - pip install --upgrade pip
     - pip install ansible
     - pip install docker-py
