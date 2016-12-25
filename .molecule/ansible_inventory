@@ -1,8 +1,8 @@
-ansible-playbooks ansible_connection=docker
-ansible-playbook2 ansible_connection=docker
+ubuntu ansible_connection=docker
+centos ansible_connection=docker
 
-[group1]
-ansible-playbooks
+[centoscontainers]
+centos
 
-[group2]
-ansible-playbook2
+[ubuntucontainers]
+ubuntu

@@ -5,16 +5,16 @@ driver:
   name: docker
 docker:
   containers:
-    - name: ansible-playbooks
+    - name: ubuntu
       image: ubuntu
       image_version: latest
       ansible_groups:
-        - group1
-    - name: ansible-playbook2
+        - ubuntucontainers
+    - name: centos
       image: centos
       image_version: latest
       ansible_groups:
-        - group2
+        - centoscontainers
 
 verifier:
   name: testinfra
