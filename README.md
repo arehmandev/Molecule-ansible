@@ -1,7 +1,7 @@
 # Testing Ansible playbooks with Molecule
 
 ## The following is an example of:
-- Ansible roles being tested in a docker container
+- Ansible roles being tested in 2 docker containers (ubuntu + centos)
 - Ansible linting being run
 - Ansible idempotency test being run
 
