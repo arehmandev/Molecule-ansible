@@ -1,0 +1,8 @@
+ansible-playbooks ansible_connection=docker
+ansible-playbook2 ansible_connection=docker
+
+[group1]
+ansible-playbooks
+
+[group2]
+ansible-playbook2

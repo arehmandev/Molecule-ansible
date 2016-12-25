@@ -1,0 +1,11 @@
+---
+
+- name: install the latest version of ntpdate
+  package:
+    name: ntpdate
+    state: present
+
+- name: install the latest version of wget
+  package:
+    name: wget
+    state: present
