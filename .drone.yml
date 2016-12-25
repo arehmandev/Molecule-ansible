@@ -8,4 +8,5 @@ build:
     - pip install ansible
     - pip install docker-py
     - pip install molecule
+    - curl https://get.docker.com | sh
     - molecule test
