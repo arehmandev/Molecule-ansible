@@ -6,4 +6,5 @@ build:
     - yum install -y python-pip
     - pip install --upgrade pip
     - pip install ansible
+    - echo "localhost ansible_connection=local" >> /etc/ansible/hosts
     - ansible-playbook playbook.yml
