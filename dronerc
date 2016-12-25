@@ -1,0 +1,2 @@
+REMOTE_DRIVER=gitlab
+REMOTE_CONFIG=https://gitlab.hooli.com?client_id=${client_id}&client_secret=${client_secret}
